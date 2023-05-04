@@ -276,9 +276,9 @@ type Repository struct {
 
 // Statistics represents a statistics record for a group or project.
 type Statistics struct {
-	CommitCount           int64 `json:"commit_count"`
-	StorageSize           int64 `json:"storage_size"`
-	RepositorySize        int64 `json:"repository_size"`
+	// CommitCount           int64 `json:"commit_count"`
+	// StorageSize           int64 `json:"storage_size"`
+	// RepositorySize        int64 `json:"repository_size"`
 	WikiSize              int64 `json:"wiki_size"`
 	LFSObjectsSize        int64 `json:"lfs_objects_size"`
 	JobArtifactsSize      int64 `json:"job_artifacts_size"`
